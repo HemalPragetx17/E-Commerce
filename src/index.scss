@@ -1,0 +1,153 @@
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+
+/*--====== Header Section ======--*/
+
+.logo-img {
+    width: 160px;
+    height: 40px;
+}
+
+.custom-header {
+    margin: 5px;
+    text-decoration: none;
+    color: brown;
+}
+
+.badge {
+    top: 20px;
+}
+
+@media (min-width:300px) and (max-width:991px) {
+    .badge {
+        margin-top: 167px;
+
+    }
+}
+
+
+/*--====== Products Section ======--*/
+
+.cart_product_item {
+    border: none;
+    box-shadow: 0px 0px 87px 5px rgb(202 202 202 / 50%);
+    border-radius: 26px;
+}
+
+.cart_product_img {
+    max-width: 135px;
+    margin: auto;
+    max-height: 135px;
+}
+
+.card-head {
+    height: 150px;
+}
+
+.rating {
+    color: #eae020;
+    font-size: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+.card-btn {
+    color: white;
+    font-weight: bolder;
+    border: 2px solid #2171ad;
+    letter-spacing: 2px;
+    border-radius: 11px;
+    padding: 8px 40px;
+
+    &:hover {
+        color: #2171ad !important;
+        background-color: white;
+    }
+
+}
+
+
+/*--====== home Section ======--*/
+
+#home {
+    padding: 1rem 0 4rem 0;
+}
+
+
+/*--====== Footer Section ======--*/
+
+#footer {
+    text-align: center;
+    padding: 1.4rem 0;
+    background-color: #0a023a;
+
+    p {
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-top: 0.8rem;
+        color: whitesmoke;
+    }
+}
+
+
+/*--====== Heart icon ======--*/
+
+.head-icon {
+    color: rgb(248, 105, 10);
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    right: 26px;
+}
+
+.heads-icon {
+    color: rgb(248, 105, 10);
+    font-size: 25px;
+}
+
+
+/*--====== Pagination ======--*/
+
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+
+    button {
+        width: 40px;
+        height: 40px;
+        font-family: inherit;
+        font-weight: 600;
+        font-size: 16px;
+        margin: 0 10px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background: transparent;
+        color: #101010;
+        border-color: #101010;
+
+        &.active {
+            font-weight: 900;
+            background: #ffe400;
+        }
+    }
+
+}
